@@ -9,15 +9,13 @@ galaxy_info:
   min_ansible_version: 2.4
 
   platforms:
-  - name: RedHat
+  - name: EL
     versions:
-    - all
-  - name: opensuse
-    versions:
-    - all
+    - 6
+    - 7
   - name: SLES
     versions:
-    - all
+    - 12
 
   galaxy_tags: []
 
