@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'nstall_ntp'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Install ntp (or ntpd or whatever it is called)'
   company: 'B1 Systems GmbH'
