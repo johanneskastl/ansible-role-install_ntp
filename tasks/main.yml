@@ -7,8 +7,7 @@
     state: 'present'
   when:
     - '
-      ((ansible_distribution == "SLES" or ansible_distribution == "openSUSE Leap" or ansible_distribution == "openSUSE MicroOS")
-      and ansible_distribution_major_version|int < 15)
+      (ansible_os_family == "Suse" and ansible_distribution_major_version|int < 15)
       or
       ((ansible_distribution == "CentOS" or ansible_distribution == "RedHat") and ansible_distribution_major_version|int < 8)
       or
