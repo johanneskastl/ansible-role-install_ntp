@@ -9,7 +9,7 @@
     - '
       (ansible_os_family == "Suse" and ansible_distribution_major_version|int < 15)
       or
-      ((ansible_distribution == "CentOS" or ansible_distribution == "RedHat") and ansible_distribution_major_version|int < 8)
+      (ansible_os_family == "RedHat" and ansible_distribution_major_version|int < 8)
       or
       ansible_os_family == "debian"
       '
