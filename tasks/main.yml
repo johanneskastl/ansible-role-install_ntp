@@ -1,7 +1,7 @@
 ---
 # install_ntp/tasks/main.yml
 
-- name: 'install ntp'
+- name: 'Install ntp'
   package:
     name: "{{ ntp_package }}"
     state: 'present'
