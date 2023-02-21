@@ -12,8 +12,8 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 6
-        - 7
+        - '6'
+        - '7'
     - name: SLES
       versions:
         - 12
