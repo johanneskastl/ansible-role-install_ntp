@@ -2,7 +2,7 @@
 # install_ntp/tasks/main.yml
 
 - name: 'Install ntp'
-  package:
+  ansible.builtin.package:
     name: "{{ ntp_package }}"
     state: 'present'
   when:
