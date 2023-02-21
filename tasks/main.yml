@@ -11,5 +11,5 @@
       or
       (ansible_os_family == "RedHat" and ansible_distribution_major_version|int < 8)
       or
-      ansible_os_family == "debian"
+      (ansible_os_family == "Debian" and ansible_distribution_major_version|int < 10)
       '
