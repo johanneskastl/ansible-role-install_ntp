@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.install_ntp' }
+         - role: 'johanneskastl.install_ntp'
 
 License
 -------
