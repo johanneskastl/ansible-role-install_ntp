@@ -16,7 +16,12 @@ galaxy_info:
         - '7'
     - name: SLES
       versions:
-        - 12
+        - '12'
+        - '12SP1'
+        - '12SP2'
+        - '12SP3'
+        - '12SP4'
+        - '12SP5'
 
   galaxy_tags: []
 
